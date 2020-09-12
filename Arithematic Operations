@@ -1,0 +1,37 @@
+using System;
+
+namespace arithematicOperations
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //onsole.WriteLine("Hello World!");
+            int opn = 2 + 6 * 5;
+            Console.WriteLine("Addition Operation result: " + opn);
+
+            opn = (2 + 3) * 6;
+            Console.WriteLine("2nd Addition Operation result: " + opn);
+
+            int IntDivision = 25 / 2; //rem lost
+            double floatDivFailed = 25 / 2;
+            double floatDiv = 25.00 / 2.00;
+
+            Console.WriteLine("Integer Division: " + IntDivision);
+            Console.WriteLine("Dividing Float Failed: " + floatDivFailed);
+            Console.WriteLine("Dividing Float Succeeded: " + floatDiv);
+
+            int mod = 25 % 2;
+            Console.WriteLine("The modulo operation gives the remainder: " + mod);
+
+            //Unary Operations
+            int x = 0;
+            Console.WriteLine("x = " + x);
+            x++;
+            Console.WriteLine("x++ = " + x);
+            x--;
+            Console.WriteLine("x-- = " + x);
+
+        }
+    }
+}
