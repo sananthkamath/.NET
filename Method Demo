@@ -1,0 +1,35 @@
+using Microsoft.VisualBasic;
+using System;
+using System.Security.Cryptography.X509Certificates;
+
+namespace methodDemo1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Console.WriteLine("Hello World!");
+            myFirstName();
+            string iname = "Ananth";
+            string sname = "Kamath";
+            mySecondName(sname);
+            string fullname = myFullName(iname, sname);
+            Console.WriteLine("My Full Name is: " + fullname);
+
+        }
+        static void myFirstName()
+        {
+            string fname = "Ananth";
+            Console.WriteLine("My first name is: " + fname);
+        }
+        static void mySecondName(string a)
+        {
+            Console.WriteLine("My second name is: " + a);
+        }
+        static string myFullName(string x, string y)
+        {
+            string fn = x + " " + y;
+            return fn;
+        }
+    }
+}
