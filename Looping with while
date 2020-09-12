@@ -1,0 +1,19 @@
+using System;
+
+namespace looping
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Console.WriteLine("Hello World!");
+            int x = 0; //counter
+            while (x < 5) //condition
+            {
+                Console.WriteLine("Hello, World!"); //body
+                x++;
+            }
+
+        }
+    }
+}
