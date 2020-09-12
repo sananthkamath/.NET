@@ -1,0 +1,23 @@
+using System;
+
+namespace datatypes
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Console.WriteLine("Hello World!");
+            int n = 12;
+            double pi = 3.1415;
+
+            Console.Write("The value of pi: ");
+            Console.WriteLine(pi);
+
+            //With placeholder
+            Console.WriteLine("PI is = {0} ", pi);
+
+            //WO Placeholder
+            Console.WriteLine("PI is = " + pi);
+        }
+    }
+}
