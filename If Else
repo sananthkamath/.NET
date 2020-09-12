@@ -1,0 +1,22 @@
+using System;
+
+namespace if_else
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Console.WriteLine("Hello World!");
+            int age = 25;
+            Console.WriteLine("Bouncer: Welcome to The Disco Bar! What is your Age? " + age);
+            if(age >= 21)
+            {
+                Console.WriteLine("Bouncer: You may enter!");
+            }
+            else 
+            {
+                Console.WriteLine("Bouncer: You cannot enter!");
+            }
+        }
+    }
+}
