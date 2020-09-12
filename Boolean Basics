@@ -1,0 +1,23 @@
+using System;
+
+namespace booleanBasics
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Console.WriteLine("Hello World!");
+            bool isRaining = false;
+            bool isSunny = true;
+
+            Console.WriteLine("Is it raining? = " + isRaining);
+            Console.WriteLine("Is it sunny? = " + isSunny);
+
+            bool isBigger = 10 > 3;
+            Console.WriteLine("Is 10 greater than 3: " + isBigger);
+            isBigger = 3 > 10;
+            Console.WriteLine("Is 3 greater than 10: " + isBigger);
+
+        }
+    }
+}
