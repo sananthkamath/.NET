@@ -1,0 +1,26 @@
+using System;
+
+namespace userInput
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Console.WriteLine("Hello World!");
+            string fname = "";
+            string lname = "";
+            string age = "";
+
+            Console.Write("Enter your first name: ");
+            fname = Console.ReadLine();
+            Console.Write("Enter your last name: ");
+            lname = Console.ReadLine();
+            Console.Write("Enter your age: ");
+            age = Console.ReadLine();
+
+            Console.WriteLine();
+            Console.WriteLine("Your full name is: " + fname + " " + lname);
+            Console.WriteLine("Your age is: " + age);
+        }
+    }
+}
